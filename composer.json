@@ -1,0 +1,19 @@
+{
+    "name": "gallna/logger",
+    "require": {
+        "php": ">=5.4",
+        "monolog/monolog": "^1.17",
+        "bramus/monolog-colored-line-formatter": "~2.0"
+    },
+    "authors": [
+        {
+            "name": "Tomasz Jonik",
+            "email": "tom.jonik@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kemer\\Logger\\": "src/Kemer/Logger"
+        }
+    }
+}
